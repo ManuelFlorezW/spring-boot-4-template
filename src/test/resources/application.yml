@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-4-template
+  profiles:
+    active: test
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

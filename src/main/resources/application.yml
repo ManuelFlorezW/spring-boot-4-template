@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-boot-4-template
+  profiles:
+    active: dev

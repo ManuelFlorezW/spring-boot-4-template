@@ -164,3 +164,31 @@ Este proyecto es una plantilla base.
 - Agregar **OpenAPI / Swagger**
 - Agregar **JaCoCo** para cobertura
 - Preparar **CI/CD** (GitHub Actions)
+
+---
+
+## ✅ 2️⃣ Endpoints disponibles por defecto
+
+````bash
+GET /actuator/health
+````
+
+Ejemplo:
+
+````bash
+curl http://localhost:8080/actuator/health
+````
+
+---
+
+## Endpoints
+
+| Endpoint              |       Uso        |
+|-----------------------|:----------------:|
+| /actuator/health      | Estado de la app |
+| /actuator/info        |  Info del build  |
+| /actuator/metrics     |     Métricas     |
+| /actuator/env         |    Variables     |
+| /actuator/loggers     |  Niveles de log  |
+| /actuator/beans       |  Beans cargados  |
+
